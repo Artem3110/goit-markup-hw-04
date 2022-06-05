@@ -269,20 +269,20 @@ border-radius: 4px;
     margin-bottom: 30px;
 }
 
-.pec-item:nth-child(1)::before {
-    background-image: url(../images/antenna-pec.png);
+.pec-icon-antenna::before {
+    background-image: url(../images/antenna-pec.svg);
 }
 
-.pec-item:nth-child(2)::before {
-    background-image: url(../images/clock-pec.png);
+.pec-icon-clock::before {
+    background-image: url(../images/clock-pec.svg);
 }
 
-.pec-item:nth-child(3)::before {
-    background-image: url(../images/diagram-pec.png);
+.pec-icon-diagram::before {
+    background-image: url(../images/diagram-pec.svg);
 }
 
-.pec-item:nth-child(4)::before {
-    background-image: url(../images/astronaut-pec.png);
+.pec-icon-astronaut::before {
+    background-image: url(../images/astronaut-pec.svg);
 }
 
 .bottom-text {
@@ -362,6 +362,32 @@ border-radius: 4px;
         text-align: center;
 
         margin-top: 10px;
+        margin-bottom: 16px;
+}
+
+.team-soc-list {
+    display: flex;
+    justify-content: center;
+}
+
+.team-soc-item {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+}
+
+.team-soc-item:last-child {
+    margin-right: 0px;
+}
+
+.team-soc-link {
+    width: 100%;
+    height: 100%;
+    background-color: tomato;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*-----------------FOOTER---------------*/
