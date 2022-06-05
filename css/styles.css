@@ -236,8 +236,6 @@ border-radius: 4px;
 }
 
 
-
-
 .pec {
     padding-top: 94px;
     padding-bottom: 47px;
@@ -257,6 +255,34 @@ border-radius: 4px;
 
 .pec-item:not(:last-child) {
     margin-right: 30px;
+}
+
+.pec-item::before {
+    display: block;
+    content: "";
+    height: 120px;
+    outline: 1px solid red;
+    background: #F5F4FA;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.pec-item:nth-child(1)::before {
+    background-image: url(../images/antenna-pec.png);
+}
+
+.pec-item:nth-child(2)::before {
+    background-image: url(../images/clock-pec.png);
+}
+
+.pec-item:nth-child(3)::before {
+    background-image: url(../images/diagram-pec.png);
+}
+
+.pec-item:nth-child(4)::before {
+    background-image: url(../images/astronaut-pec.png);
 }
 
 .bottom-text {
