@@ -121,6 +121,8 @@ font-weight: 700;
     margin-right: 50px;
 }
 
+
+
 .header-connect {
     margin-left: auto;
 }
@@ -135,6 +137,12 @@ font-weight: 700;
         color: #757575;
 }
 
+.header-mail-icon {
+    fill: currentColor;
+}
+
+
+
 .header-tel {
         font-weight: 500;
         font-size: 14px;
@@ -144,6 +152,12 @@ font-weight: 700;
         color: #757575;
 }
 
+.header-tel-icon {
+    fill: currentColor;
+}
+
+
+
 .header-link:hover, .header-link:focus  {
     color: var(--accent-color);
 }
@@ -152,12 +166,12 @@ font-weight: 700;
     color: var(--accent-color);
 }
 
-.header-item:hover .header-evelope-icon,
-.header-item:focus .header-evelope-icon {
+.header-item:hover .header-mail-icon,
+.header-item:focus .header-mail-icon {
     fill: var(--accent-color);
 }
 
-.header-tel:hover, .header-tel:focus  {
+.header-tel:hover,.header-tel:focus  {
     color: var(--accent-color);
 }
 
@@ -166,30 +180,26 @@ font-weight: 700;
     fill: var(--accent-color);
 }
 
-.header-item:hover .header-tel-icon,
-.header-item:focus .header-tel-icon {
-    fill: var(--accent-color);
-}
 
-.header-evelope-link {
-    width: 16px;
-    height: 12px;
-    background-color: #FFFFFF;
-    display: inline-block;
+.header-item-mail {
     justify-content: center;
-    align-items: center;
-    margin-right: 10px;
 }
 
-.header-evelope-icon {
-    fill: #757575;
+
+.header-mail-icon {
+            width: 16px;
+            height: 12px;
+            background-color: #FFFFFF;
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
 }
 
 .header-tel-icon {
     width: 10px;
     height: 16px;
     background-color: #FFFFFF;
-    fill: #757575;
     display: inline-block;
     justify-content: center;
     align-items: center;
@@ -459,6 +469,16 @@ border-radius: 4px;
     display: flex;
 }
 
+.footer-box {
+    display: inline-flex;
+    margin-right: 678px;
+}
+
+.footer-connect {
+    margin-left: 70px;
+    margin-top: 12px;
+}
+
 .footer-logo {
     font-family: 'Raleway';
         font-weight: 700;
@@ -536,7 +556,6 @@ border-radius: 4px;
 
 .connect-soc-list {
     display: flex;
-    justify-content: center;
 }
 
 .connect-soc-item {
